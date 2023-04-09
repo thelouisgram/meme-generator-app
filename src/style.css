@@ -1,0 +1,140 @@
+* {
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: 20px 35px 20px 25px;
+}
+
+.meme--section{
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.troll-face {
+    width: 30px;
+}
+
+.right h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+}
+
+.left h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.form input {
+    width: 210px;
+    height: 35px;
+    border: solid 1px #D5D4D8;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    gap: 16px;
+}
+
+button {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border: none;
+    border-radius: 5px;
+    width: 437px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 36px;
+}
+
+.frame {
+    width: 28px;
+}
+
+.meme--section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meme--img {
+    max-width: 437px;
+}
+
+.meme--div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.meme--text {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: -0.05rem;
+    text-transform: uppercase;
+}
+
+
+.meme--text.top {
+    top: 2px;
+}
+
+.meme--text.bottom {
+    bottom: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+    .meme--img {
+        max-width: 100%;
+    }
+
+    button{
+        max-width: 100%;
+    }
+
+    .form input {
+    width: 50%;
+    }
+}
